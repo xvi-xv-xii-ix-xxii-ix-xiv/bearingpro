@@ -54,9 +54,10 @@
   let tc = 256.00;
   let cc = convert_true_course_to_compass_course(tc, 0.7, &dev_table, InterpolationMethod::Cubic).unwrap();
   assert_eq!(format!("{:.2}", cc.course), "271.19");
-  ``` 
+  ```
+
   # Modules
  
-  -`deviation`: Handles deviation table creation, modification, and interpolation. Supports both linear and cubic interpolation methods for handling deviation values.
-  - `error`: Custom error types for handling invalid inputs or missing data in navigation calculations.
-  - `navigation_solutions`: Functions for course conversions, bearing calculations, applying deviation corrections, and managing interpolation of deviation values.
+ -`deviation`: Handles deviation table creation, modification, and interpolation. Supports both linear and cubic interpolation methods for handling deviation values.
+ - `error`: Custom error types for handling invalid inputs or missing data in navigation calculations.
+ - - `navigation_solutions`: Functions for course conversions, bearing calculations, applying deviation corrections, and managing interpolation of deviation values.
