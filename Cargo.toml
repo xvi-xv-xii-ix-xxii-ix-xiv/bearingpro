@@ -7,9 +7,9 @@ description = "A Rust library for solving common maritime navigation tasks."
 repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro"
 license = "MIT"
 homepage = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro"
-documentation = "https://docs.rs/your-crate"               # Ссылка на документацию (опционально)
-readme = "README.md"             # Путь к файлу README
-keywords = ["bearing", "true course", "compass course", "deviation"]  # Ключевые слова (опционально)
-categories = ["nautical"]
+documentation = "https://docs.rs/your-crate"
+readme = "README.md"
+keywords = ["bearing", "course", "compass", "deviation", "navigation"]
+categories = ["navigation"]
 
 [dependencies]
