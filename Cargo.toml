@@ -1,0 +1,10 @@
+[package]
+name = "bearingpro"
+version = "0.9.0-rc.1"
+authors = ["xvi.xv.xii.ix.xxii.ix.xiv <xvi.xv.xii.ix.xxii.ix.xiv@gmail.com>"]
+edition = "2021"
+description = "A Rust library for solving common maritime navigation tasks."
+repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro"
+license = "MIT"
+
+[dependencies]
