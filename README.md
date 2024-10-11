@@ -57,6 +57,6 @@
   ```
 
   # Modules
--`deviation`: Handles deviation table creation, modification, and interpolation. Supports both linear and cubic interpolation methods for handling deviation values.
 - `error`: Custom error types for handling invalid inputs or missing data in navigation calculations.
 - `navigation_solutions`: Functions for course conversions, bearing calculations, applying deviation corrections, and managing interpolation of deviation values.
+- `deviation`: Handles deviation table creation, modification, and interpolation. Supports both linear and cubic interpolation methods for handling deviation values.
