@@ -333,7 +333,7 @@ mod tests {
             );
         }
         // Absurdly long input is refused rather than chewed over.
-        let long: String = core::iter::repeat_n('1', 200).collect();
+        let long = "1".repeat(200);
         assert!(sexagesimal("latitude", &long).is_err());
     }
 

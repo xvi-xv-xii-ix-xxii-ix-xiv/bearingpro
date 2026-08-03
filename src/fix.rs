@@ -515,8 +515,8 @@ pub fn distance_by_two_bearings(
         return Err(NavigationError::OutOfRange {
             parameter: "relative bearing",
             value: second_signed,
-            min: first_signed.signum() * f64::MIN_POSITIVE,
-            max: first_signed.signum() * 180.0,
+            min: math::copysign(f64::MIN_POSITIVE, first_signed),
+            max: math::copysign(180.0, first_signed),
         });
     }
 

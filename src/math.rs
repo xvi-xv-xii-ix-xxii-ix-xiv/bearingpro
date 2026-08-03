@@ -24,6 +24,9 @@ mod imp {
     pub(crate) fn abs(x: f64) -> f64 {
         x.abs()
     }
+    pub(crate) fn copysign(magnitude: f64, sign: f64) -> f64 {
+        magnitude.copysign(sign)
+    }
     pub(crate) fn tan(x: f64) -> f64 {
         x.tan()
     }
@@ -73,6 +76,9 @@ mod imp {
     pub(crate) fn abs(x: f64) -> f64 {
         libm::fabs(x)
     }
+    pub(crate) fn copysign(magnitude: f64, sign: f64) -> f64 {
+        libm::copysign(magnitude, sign)
+    }
     pub(crate) fn tan(x: f64) -> f64 {
         libm::tan(x)
     }
@@ -109,7 +115,7 @@ compile_error!(
 );
 
 pub(crate) use imp::{
-    abs, acos, asin, atan, atan2, ceil, cos, exp, hypot, ln, round, sin, sqrt, tan, trunc,
+    abs, acos, asin, atan, atan2, ceil, copysign, cos, exp, hypot, ln, round, sin, sqrt, tan, trunc,
 };
 
 /// Degrees per radian, for `to_radians` without depending on `std`.
