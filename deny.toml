@@ -1,0 +1,25 @@
+# Configuration for `cargo deny check`, run in CI.
+#
+# The crate has no dependencies in its default configuration and exactly one
+# (`libm`) with the `libm` feature, so this file exists mainly to keep it that
+# way: a new dependency has to be a deliberate decision.
+
+[advisories]
+version = 2
+yanked = "deny"
+
+[licenses]
+version = 2
+allow = ["MIT", "Apache-2.0", "Unicode-3.0"]
+confidence-threshold = 0.93
+
+[bans]
+multiple-versions = "deny"
+wildcards = "deny"
+# Nothing here yet. Add an entry only with a reason.
+deny = []
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]
