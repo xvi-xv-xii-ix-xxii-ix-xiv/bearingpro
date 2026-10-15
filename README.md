@@ -4,6 +4,14 @@
 [![docs.rs](https://docs.rs/bearingpro/badge.svg)](https://docs.rs/bearingpro)
 [![CI](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro/actions/workflows/ci.yml/badge.svg)](https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro/actions/workflows/ci.yml)
 
+> [!WARNING]
+> **bearingpro is discontinued.** No further releases, fixes or support.
+> Its successor is **[KINAVIS](https://github.com/KINAVIS/kinavis)**
+> ([crates.io](https://crates.io/crates/kinavis), [docs.rs](https://docs.rs/kinavis)).
+>
+> Migration: replace `bearingpro = "0.12"` with `kinavis = "1"` and
+> `use bearingpro::…` with `use kinavis::…`. See the KINAVIS documentation for API changes.
+
 Marine navigation in Rust: compass corrections, the sailings, dead reckoning,
 position fixing and collision avoidance.
 

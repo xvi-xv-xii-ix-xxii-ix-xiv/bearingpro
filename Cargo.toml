@@ -1,10 +1,10 @@
 [package]
 name = "bearingpro"
-version = "0.12.0"
+version = "0.12.1"
 authors = ["xvi.xv.xii.ix.xxii.ix.xiv <xvi.xv.xii.ix.xxii.ix.xiv@gmail.com>"]
 edition = "2021"
 rust-version = "1.81"
-description = "A Rust library for solving common maritime navigation tasks."
+description = "Discontinued: superseded by kinavis (https://crates.io/crates/kinavis). A Rust library for solving common maritime navigation tasks."
 repository = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro"
 license = "MIT"
 homepage = "https://github.com/xvi-xv-xii-ix-xxii-ix-xiv/bearingpro"

@@ -1,3 +1,6 @@
+//! **Discontinued.** This crate is superseded by
+//! [`kinavis`](https://crates.io/crates/kinavis) and receives no further releases.
+//!
 //! Marine navigation: compass corrections, the sailings, dead reckoning,
 //! position fixing and collision avoidance.
 //!
